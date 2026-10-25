@@ -1,0 +1,101 @@
+body {
+  background: #f6d2d6;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+hr {
+  opacity: 0.2;
+}
+
+h1,
+h2 {
+  font-family: "Kameron", serif;
+  margin-bottom: 15px;
+  color: rgb(67, 41, 62);
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 80px;
+  margin-top: 30px;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  color: rgba(0, 0, 0, 0.35);
+}
+
+strong {
+  color: #d46a92;
+  font-weight: 700;
+}
+
+footer p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+a {
+  color: #6a4162;
+}
+
+.container {
+  background: #fefafa;
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 580px;
+  border-radius: 10px;
+  box-shadow: 0 15px 20px 8px rgba(106, 65, 98, 0.15);
+}
+
+.city-input {
+  background: rgba(106, 65, 98, 0.15);
+  color: #27214266;
+  width: 434px;
+}
+.search-button {
+  background: #6a4162;
+  color: #fefafa;
+  font-weight: 550;
+  padding: 14px 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  background: rgb(67, 41, 62);
+}
+
+.city-details {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.celsius-symbol {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  top: -37px;
+}
+
+.material-symbols-outlined {
+  color: #d46a92;
+  font-size: 50px;
+}
